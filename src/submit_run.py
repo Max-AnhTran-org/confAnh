@@ -2,6 +2,8 @@
 import kfp
 import sys
 
+#  Test run source code pipeline
+
 sys.path.append('../src')
 from pipelines.pipeline_definitions.pipeline_definition import pipeline
 from pipelines.pipeline_arg.pipeline_arg import arguments
