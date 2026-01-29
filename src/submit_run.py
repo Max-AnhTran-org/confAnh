@@ -1,5 +1,6 @@
 # submit_run.py
 import kfp
+client = kfp.Client(host='http://localhost:8080')
 import sys
 
 #  Test run source code pipeline
